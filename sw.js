@@ -1,5 +1,16 @@
 // import
-importScripts('/twittor/js/sw-utils.js');
+// var url = window.location.href;
+// var swUtilsLocation = '/twittor/sw.js';
+
+// if (navigator.serviceWorker) {
+//     if (url.includes('localhost')) {
+//         swLocation = '/sw.js';
+//     }
+//     navigator.serviceWorker.register(swLocation);
+// }
+
+// importScripts('https://joaquindan.github.io/twittor/js/sw-utils.js');
+importScripts('js/sw-utils.js');
 
 const STATIC_CACHE = 'static-v3';
 const DYNAMIC_CACHE = 'dynamic-v1';

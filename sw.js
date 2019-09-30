@@ -1,5 +1,5 @@
 // import
-importScripts('/js/sw-utils.js');
+importScripts('/twittor/js/sw-utils.js');
 
 const STATIC_CACHE = 'static-v3';
 const DYNAMIC_CACHE = 'dynamic-v1';
